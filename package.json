@@ -1,15 +1,15 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "Hello World",
-  "main": "main.js",
-  "author": "xxx21",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "node main.js"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+	"name": "hello-world",
+	"version": "0.0.0",
+	"description": "Hello World",
+	"main": "main.js",
+	"author": "xxx21",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node main.js"
+	},
+	"engines": {
+		"node": "^18"
+	}
 }
