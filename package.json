@@ -7,7 +7,12 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"start": "node main.js"
+		"start ": "nx serve ",
+		"build": "nx build",
+		"node-vless:build": "nx build node-vless --configurations=production",
+		"node-vless:bunled": "nx build node-vless --configurations=production -- --externalDependencies=none",
+		"node-vless:start": "node ./main.js",
+		"test": "nx test"
 	},
 	"engines": {
 		"node": "^18"
