@@ -7,7 +7,6 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"build": "",
 		"start ": "node ./main.js"
 	},
 	"engines": {
