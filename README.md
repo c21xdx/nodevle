@@ -1,1 +1,7 @@
 # nodevle
+
+ENV
+
+PORT 
+
+UUID
