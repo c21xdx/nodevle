@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "npm install; npm run node-vless:build",
+    "build": "npm run node-vless:build",
     "start ": "node ./main.js"
   },
   "dependencies": {
