@@ -1,4 +1,4 @@
-FROM amd64/node:lts-alpine
+FROM arm64v8/node:lts-alpine
 
 ENV NODE_ENV=production
 ENV PORT=8080
