@@ -1,0 +1,11 @@
+ersion: 0.1
+
+# +required List of endpoints to create
+endpoints:
+- name: nodevle
+  port: 8080
+  # Allowed values: REST, GraphQL, GRPC
+  type: REST
+  # Accepted values: Project|Organization|Public.
+  networkVisibility: Public
+  context: /
