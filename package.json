@@ -8,11 +8,5 @@
 	"private": false,
 	"scripts": {
 		"start ": "node ./main.js"
-	},
-	"dependencies": {
-		"node": "18.15.0"
-	},
-	"engines": {
-		"node": "18.x"
 	}
 }
