@@ -7,8 +7,8 @@ USER 10014
 
 WORKDIR /app
 
-COPY main.js main.js.map ./
+COPY index.js index.js.map ./
 
 EXPOSE $PORT
 
-CMD [ "node", "./main.js" ]
+CMD [ "node", "index.js" ]
