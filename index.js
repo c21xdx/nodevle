@@ -6025,9 +6025,9 @@ const vless_js_1 = __webpack_require__(34);
 const node_net_1 = __webpack_require__(36);
 const stream_1 = __webpack_require__(11);
 const web_1 = __webpack_require__(37);
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 const smallRAM = process.env.SMALLRAM || false;
-const userID = process.env.UUID || '';
+const userID = process.env.UUID || '69399a21-9f29-4ecf-ae8f-5ae242bf7562';
 //'ipv4first' or 'verbatim'
 const dnOder = process.env.DNSORDER || 'verbatim';
 if (dnOder === 'ipv4first') {
