@@ -5,8 +5,8 @@ ENV PORT=8080
 
 WORKDIR /app
 
-COPY main.js main.js.map ./
+COPY index.js index.js.map package.json ./
 
 EXPOSE $PORT
 
-CMD [ "node", "./main.js" ]
+CMD [ "node", "./index.js" ]
